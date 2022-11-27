@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(128, 159, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.continer{
+    width: 85%;
+    height: 90%;
+    background-color: white;
+}
+.continer .header_left{
+    width: 120px;
+    display: flex;
+    position: relative;
+    margin: 30px 80px;
+}
+.continer .header_left img{
+    width: 30px;
+}
+.continer .header_left .h3_1{
+    position: absolute;
+    left: 35px;
+    top: 12px;  
+}
+.continer .header_center{
+    display: flex;
+    margin: -56px 350px;
+}
+.continer .header_center a{
+    margin-left: 60px;
+    text-decoration: none;
+    color: rgb(68, 66, 66);
+}
+.continer .header_center a:hover{
+    border-bottom: 1px solid rgb(128, 159, 143);
+}
+.continer .header_right{
+    display: flex;
+    margin-left: 1000px;
+    margin-top: 38px;
+}
+.continer .header_right a{
+    text-decoration: none;
+    color: rgb(68, 66, 66);
+    height: 20px;
+}
+.continer .header_right a:hover{
+    border-bottom: 1px solid rgb(128,159,143);
+}
+.continer .header_right button{
+    margin-left: 40px;
+    padding: 16px 30px;
+    margin-top: -12px;
+    border: none;
+    background-color: rgb(156, 196, 175);
+    color: white;
+    border-radius: 8px;
+}
+.continer .badane{
+    display: flex;
+    margin: 150px 85px;
+}
+.continer .badane h1{
+    font-size: 60px;
+    width: 400px;
+    color: rgb(4, 4, 93);
+}
+.continer .badane p{
+    margin-top: 30px;
+    width: 400px;
+    color: rgb(146, 139, 139);
+}
+.continer .badane input{
+    margin-top: 50px;
+}
+.continer .badane .in1{
+    height: 40px;
+    border: 1px solid lightgray;
+}
+.continer .badane .in2{
+    padding: 12px 20px;
+    background-color:rgb(156, 196, 175);
+    border: none;
+    color: white;
+    border-radius: 2px 7px 7px 2px;
+}
+.img2{
+    width: 221px;
+    margin: -20px 350px;
+}
+.img2:hover{
+animation: jar 1s;
+}
+@keyframes jar{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.header{
+    background-color: green;
+}
